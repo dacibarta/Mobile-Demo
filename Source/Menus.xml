@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="12040"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="11"/>
+  </Header>
+
+  <MenusRepository>
+    <Menus>
+      <Menu>
+        <ToolNumber val="9"/>
+        <Name val="Root - Main Menu"/>
+        <LastIsn val="5"/>
+        <MenuEntry id="1">
+          <MenuType val="3"/>
+          <Description_U val="Travel Demo"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="1"/>
+          </Event>
+        </MenuEntry>
+        <MenuEntry id="2">
+          <MenuType val="3"/>
+          <Description_U val="Portfolio Demo"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="2"/>
+          </Event>
+        </MenuEntry>
+        <MenuEntry id="3">
+          <MenuType val="3"/>
+          <Description_U val="HTML5 Demo"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="3"/>
+          </Event>
+        </MenuEntry>
+        <MenuEntry id="4">
+          <MenuType val="3"/>
+          <Description_U val="Device Demo"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="4"/>
+          </Event>
+        </MenuEntry>
+      </Menu>
+      <Menu>
+        <ToolNumber val="10"/>
+        <Name val="Travel - Travel Entry"/>
+        <LastIsn val="4"/>
+        <MenuEntry id="1">
+          <MenuType val="3"/>
+          <Description_U val="User Profile"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="8"/>
+          </Event>
+        </MenuEntry>
+      </Menu>
+      <Menu>
+        <ToolNumber val="4"/>
+        <Name val="Portfolio - Member Card Menu"/>
+        <LastIsn val="13"/>
+        <MenuEntry id="2">
+          <MenuType val="3"/>
+          <Description_U val="Family Members"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="21"/>
+          </Event>
+        </MenuEntry>
+        <MenuEntry id="4">
+          <MenuType val="3"/>
+          <Description_U val="Events"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="22"/>
+          </Event>
+        </MenuEntry>
+        <MenuEntry id="13">
+          <MenuType val="3"/>
+          <Description_U val="Portfolios"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="23"/>
+          </Event>
+        </MenuEntry>
+      </Menu>
+      <Menu>
+        <ToolNumber val="5"/>
+        <Name val="Portfolio - Save &amp; Cancel"/>
+        <LastIsn val="3"/>
+        <MenuEntry id="2">
+          <MenuType val="3"/>
+          <Description_U val="Save"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="5"/>
+          </Event>
+        </MenuEntry>
+        <MenuEntry id="3">
+          <MenuType val="3"/>
+          <Description_U val="Cancel"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="6"/>
+          </Event>
+        </MenuEntry>
+      </Menu>
+      <Menu>
+        <ToolNumber val="6"/>
+        <Name val="Portfolio - Add &amp; Update"/>
+        <LastIsn val="4"/>
+        <MenuEntry id="2">
+          <MenuType val="3"/>
+          <Description_U val="Add"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="7"/>
+          </Event>
+        </MenuEntry>
+        <MenuEntry id="3">
+          <MenuType val="3"/>
+          <Description_U val="Update"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="8"/>
+          </Event>
+        </MenuEntry>
+        <MenuEntry id="4">
+          <MenuType val="3"/>
+          <Description_U val="Delete"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="9"/>
+          </Event>
+        </MenuEntry>
+      </Menu>
+      <Menu>
+        <ToolNumber val="7"/>
+        <Name val="Portfolio - Select"/>
+        <LastIsn val="5"/>
+        <MenuEntry id="2">
+          <MenuType val="3"/>
+          <Description_U val="Details"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="10"/>
+          </Event>
+        </MenuEntry>
+        <MenuEntry id="4">
+          <MenuType val="3"/>
+          <Description_U val="Search"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="11"/>
+          </Event>
+        </MenuEntry>
+        <MenuEntry id="5">
+          <MenuType val="3"/>
+          <Description_U val="Add"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="7"/>
+          </Event>
+        </MenuEntry>
+      </Menu>
+      <Menu>
+        <ToolNumber val="11"/>
+        <Name val="MagicTime menu"/>
+        <LastIsn val="6"/>
+        <MenuEntry id="2">
+          <MenuType val="3"/>
+          <Name val="logoff"/>
+          <Description_U val="Logoff"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="17"/>
+          </Event>
+        </MenuEntry>
+        <MenuEntry id="3">
+          <MenuType val="3"/>
+          <Description_U val="Previous tasks"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="18"/>
+          </Event>
+        </MenuEntry>
+        <MenuEntry id="5">
+          <MenuType val="3"/>
+          <Description_U val="Sync tasks"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Event>
+            <EventType val="U"/>
+            <Parent val="32768"/>
+            <PublicObject comp="-1" obj="19"/>
+          </Event>
+        </MenuEntry>
+      </Menu>
+    </Menus>
+  </MenusRepository>
+
+</Application>

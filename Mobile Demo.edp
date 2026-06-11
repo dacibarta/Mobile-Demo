@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <_Project>
+    <ProjectName val="Mobile Demo"/>
+    <VCProjectID val="0"/>
+    <VCActive val="N"/>
+    <WorkOffline val="N"/>
+    <SourceDirectory val="Source"/>
+    <ExportsDirectory val="Exports"/>
+    <GUID val="{8EAF94B3-6BB3-421D-9D91-CE355F4C9179}"/>
+    <Version min="13020.10"/>
+    <SourceVersion val="13030.00"/>
+    <ReferencedProjects>
+      <RefProject FileName="Travel Demo\Travel Demo.edp" ProjectName="Travel Demo"/>
+      <RefProject FileName="Portfolio Demo\Portfolio Demo.edp" ProjectName="Portfolio Demo"/>
+    </ReferencedProjects>
+  </_Project>
+
+</Application>

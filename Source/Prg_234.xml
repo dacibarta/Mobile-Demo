@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="12030"/>
+    <WithIsn val="Y"/>
+    <_InternalTask val="N"/>
+    <IsRoot val="N"/>
+    <InIndex val="N"/>
+  </Header>
+
+  <ProgramsRepository>
+    <Programs>
+      <Task MainProgram="N">
+        <Header Description="Stats (Connected)" ISN_2="1" LastIsn="4" id="234">
+          <ExecutionRight comp="-1"/>
+          <Resident val="N"/>
+          <SQL val="N"/>
+          <ReturnValue>
+            <ReturnValueAttr/>
+            <ParametersAttributes/>
+          </ReturnValue>
+          <SqlWhereExist val="N"/>
+          <TaskType val="C"/>
+          <Interactive val="Y"/>
+          <External val="N"/>
+          <FormType val="M"/>
+          <DotNetObjectExists val="N"/>
+          <LastModified _date="735017" _time="30555" date="29/05/2013" time="08:29:15"/>
+        </Header>
+        <DISPLAY val="2"/>
+        <ItemIsn val="18"/>
+        <Resource>
+          <Columns>
+            <Column id="18" name="dummy">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="1"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="1"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+          </Columns>
+          <ColumnsLastIsn val="18"/>
+        </Resource>
+        <Information>
+          <Key>
+            <Mode val="N"/>
+          </Key>
+          <DB comp="-1"/>
+          <Sort>
+            <CLS val="A"/>
+          </Sort>
+          <ForceRecordDelete DEL="N"/>
+          <EndTaskCondition val="N"/>
+          <EvaluateEndCondition val="B"/>
+          <InitialMode val="E"/>
+          <Locate Direction="A"/>
+          <Range Direction="A"/>
+          <VarRange LastIsn="1"/>
+          <TaskProperties>
+            <SelectionTable val="N"/>
+            <ConfirmUpdate CNFU="N"/>
+            <ConfirmCancel val="N"/>
+            <ErrorStrategy val="R"/>
+            <LockingStrategy val="M"/>
+            <CacheStrategy val="D"/>
+            <ForceRecordSuffix val="N"/>
+            <TransactionMode val="O"/>
+            <TransactionBegin val="N"/>
+            <PreloadView val="N"/>
+            <AllowEmptyDataview val="Y"/>
+            <KeepCreatedContext val="N"/>
+          </TaskProperties>
+          <SIDE_WIN>
+            <AllowOptions val="Y"/>
+            <AllowQuery val="Y"/>
+            <AllowModify val="Y"/>
+            <AllowCreate val="Y"/>
+            <AllowDelete val="Y"/>
+            <AllowLocate val="Y"/>
+            <AllowRange val="Y"/>
+            <AllowIndexChange val="N"/>
+            <AllowSorting val="Y"/>
+            <AllowIOFiles val="N"/>
+            <TabbingCycle val="R"/>
+            <AllowEvents val="Y"/>
+            <AllowIndexOptimization val="Y"/>
+            <AllowLocationInQuery val="Y"/>
+            <AllowPrintingData val="N"/>
+          </SIDE_WIN>
+          <WIN>
+            <OpenTaskWindow val="Y"/>
+            <CloseTaskWindow val="Y"/>
+            <ForegroundWindow val="Y"/>
+            <FlipFld val="N"/>
+            <RefreshTaskWindow ReturnValue="N"/>
+          </WIN>
+          <BOX>
+            <Direction val="V"/>
+          </BOX>
+        </Information>
+        <TaskLogic>
+          <LogicUnit id="2" propagate="78">
+            <Level val="R"/>
+            <Type val="M"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="1"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <_TotalVariabls val="1"/>
+            <_TotalVirtuals val="1"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <DATAVIEW_SRC FlowIsn="2" Type="M">
+                  <Condition val="N"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </DATAVIEW_SRC>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="18" FlowIsn="3" id="18">
+                  <Column val="1"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="4" propagate="78">
+            <Level val="R"/>
+            <Type val="P"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="4"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <RaiseEvent FlowIsn="4">
+                  <Event>
+                    <EventType val="U"/>
+                    <Parent val="32768"/>
+                    <PublicObject comp="-1" obj="27"/>
+                  </Event>
+                  <Wait val="89"/>
+                  <Condition Exp="1"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </RaiseEvent>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+        </TaskLogic>
+        <TaskForms>
+          <FormEntry _last_isn="33" _last_test_id="35" id="2">
+            <PropertyList model="FORM_RICH_CLIENT">
+              <Model comp="-1" id="1" obj="32"/>
+              <Width id="23" val="3760"/>
+              <GridX id="38" val="1"/>
+              <GridY id="39" val="1"/>
+              <Wallpaper id="42" val="Images\pinstripes.png"/>
+              <_Comment id="218"/>
+              <StartupPosition id="275" val="6"/>
+              <FormName id="311" valUnicode="Demo stats"/>
+              <WallpaperStyle id="448" val="1"/>
+              <AdditionalInformation id="573" valUnicode="popup=y,ScrollHorizontal=N,ScrollVertical=N"/>
+            </PropertyList>
+            <Control PDOD="128" _test_id="35" id="33">
+              <PropertyList model="CTRL_RICH_CLIENT_SUBFORM">
+                <Placement bottom="100" id="20" right="100"/>
+                <Width id="23" val="3760"/>
+                <Height id="24" val="2154"/>
+                <ControlName id="46" val="Stats"/>
+                <ConnectTo id="156" val="2"/>
+                <TaskNumber comp="-1" id="183" obj="4"/>
+                <TabOrder id="314" val="1"/>
+                <AdditionalInformation id="573" valUnicode="ScrollHorizontal=N,ScrollVertical=Y"/>
+              </PropertyList>
+            </Control>
+          </FormEntry>
+        </TaskForms>
+        <TaskForms>
+          <FormEntry _last_isn="33" _last_test_id="35" id="3">
+            <PropertyList model="FORM_RICH_CLIENT">
+              <Model comp="-1" id="1" obj="32"/>
+              <Width id="23" val="7740"/>
+              <Height id="24" val="2354"/>
+              <Wallpaper id="42" val="Images\pinstripes.png"/>
+              <_Comment id="218"/>
+              <StartupPosition id="275" val="6"/>
+              <FormName id="311" valUnicode="Demo stats"/>
+              <WallpaperStyle id="448" val="1"/>
+              <AdditionalInformation id="573" valUnicode="popup=y,ScrollHorizontal=N,ScrollVertical=N"/>
+            </PropertyList>
+            <Control PDOD="128" _test_id="35" id="33">
+              <PropertyList model="CTRL_RICH_CLIENT_SUBFORM">
+                <Placement bottom="100" id="20" right="100"/>
+                <Width id="23" val="7740"/>
+                <Height id="24" val="2354"/>
+                <ControlName id="46" val="Stats"/>
+                <ConnectTo id="156" val="2"/>
+                <TaskNumber comp="-1" id="183" obj="4"/>
+                <TabOrder id="314" val="1"/>
+                <AdditionalInformation id="573" valUnicode="ScrollHorizontal=N,ScrollVertical=Y"/>
+              </PropertyList>
+            </Control>
+          </FormEntry>
+        </TaskForms>
+        <Expressions>
+          <Expression id="25">
+            <ExpSyntax val="IsFirstRecordCycle(0)"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="20">
+            <ExpSyntax val="IF({32768,42},'{0,2}'FORM,'{0,3}'FORM)"/>
+            <ExpAttribute val="N"/>
+          </Expression>
+        </Expressions>
+        <Task MainProgram="N">
+          <Header Description="Stats" ISN_2="4" LastIsn="4" id="234">
+            <ExecutionRight comp="-1"/>
+            <Resident val="N"/>
+            <SQL val="N"/>
+            <ReturnValue>
+              <ReturnValueAttr/>
+              <ParametersAttributes/>
+            </ReturnValue>
+            <SqlWhereExist val="N"/>
+            <TaskType val="C"/>
+            <Interactive val="Y"/>
+            <External val="N"/>
+            <FormType val="D"/>
+            <DotNetObjectExists val="N"/>
+            <LastModified _date="734966" _time="59621" date="08/04/2013" time="16:33:41"/>
+          </Header>
+          <DISPLAY val="4"/>
+          <ItemIsn val="19"/>
+          <Resource>
+            <Columns>
+              <Column id="19" name="dummy">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_ALPHA" id="1"/>
+                  <Picture id="157" valUnicode="1"/>
+                  <StoredAs id="173" val="1"/>
+                  <Size id="174" val="1"/>
+                  <_Flip id="194"/>
+                </PropertyList>
+              </Column>
+            </Columns>
+            <ColumnsLastIsn val="19"/>
+          </Resource>
+          <Information>
+            <Key>
+              <Mode val="N"/>
+            </Key>
+            <DB comp="-1"/>
+            <Sort>
+              <CLS val="A"/>
+            </Sort>
+            <ForceRecordDelete DEL="N"/>
+            <EndTaskCondition val="N"/>
+            <EvaluateEndCondition val="B"/>
+            <InitialMode val="E"/>
+            <Locate Direction="A"/>
+            <Range Direction="A"/>
+            <VarRange LastIsn="1"/>
+            <TaskProperties>
+              <SelectionTable val="N"/>
+              <ConfirmUpdate CNFU="N"/>
+              <ConfirmCancel val="N"/>
+              <ErrorStrategy val="R"/>
+              <LockingStrategy val="M"/>
+              <CacheStrategy val="D"/>
+              <ForceRecordSuffix val="N"/>
+              <TransactionMode val="O"/>
+              <TransactionBegin val="N"/>
+              <PreloadView val="N"/>
+              <AllowEmptyDataview val="Y"/>
+              <KeepCreatedContext val="N"/>
+            </TaskProperties>
+            <SIDE_WIN>
+              <AllowOptions val="Y"/>
+              <AllowQuery val="Y"/>
+              <AllowModify val="Y"/>
+              <AllowCreate val="Y"/>
+              <AllowDelete val="Y"/>
+              <AllowLocate val="Y"/>
+              <AllowRange val="Y"/>
+              <AllowIndexChange val="N"/>
+              <AllowSorting val="Y"/>
+              <AllowIOFiles val="N"/>
+              <TabbingCycle val="R"/>
+              <AllowEvents val="Y"/>
+              <AllowIndexOptimization val="Y"/>
+              <AllowLocationInQuery val="Y"/>
+              <AllowPrintingData val="N"/>
+            </SIDE_WIN>
+            <WIN>
+              <OpenTaskWindow val="Y"/>
+              <CloseTaskWindow val="Y"/>
+              <ForegroundWindow val="Y"/>
+              <FlipFld val="N"/>
+              <RefreshTaskWindow ReturnValue="N"/>
+            </WIN>
+            <BOX>
+              <Direction val="V"/>
+            </BOX>
+          </Information>
+          <TaskLogic>
+            <LogicUnit id="2" propagate="78">
+              <Level val="R"/>
+              <Type val="M"/>
+              <_DspTemplate val="0"/>
+              <_HeaderPosition val="1"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <_TotalVariabls val="1"/>
+              <_TotalVirtuals val="1"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <ExecuteOn_ val="O"/>
+              <LogicLines>
+                <LogicLine>
+                  <DATAVIEW_SRC FlowIsn="2" Type="M">
+                    <Condition val="N"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </DATAVIEW_SRC>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="19" FlowIsn="5" id="19">
+                    <Column val="1"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_RecomputeIndex val="1"/>
+                    <_FormIndex val="1"/>
+                    <_ControlIndex val="1"/>
+                    <_OleSubformIdx val="1"/>
+                    <_TabbingOrderDspIndex val="1"/>
+                    <DIFF_UPDATE val="T"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+          </TaskLogic>
+          <TaskForms>
+            <FormEntry _last_isn="35" _last_test_id="37" id="2">
+              <PropertyList model="FORM_RICH_CLIENT">
+                <Model comp="-1" id="1" obj="32"/>
+                <Width id="23" val="3760"/>
+                <Height id="24" val="4469"/>
+                <GridX id="38" val="1"/>
+                <GridY id="39" val="1"/>
+                <Wallpaper id="42"/>
+                <Color id="51" val="14"/>
+                <_Comment id="218"/>
+                <StartupPosition id="275" val="6"/>
+                <FormName id="311" valUnicode="Stats-subform-phone"/>
+                <WallpaperStyle id="448" val="1"/>
+                <AdditionalInformation id="573" valUnicode="ScrollHorizontal=N,ScrollVertical=Y"/>
+              </PropertyList>
+              <Control _test_id="35" id="33">
+                <PropertyList model="CTRL_RICH_CLIENT_IMAGE">
+                  <Placement id="20" right="100"/>
+                  <X id="21" val="79"/>
+                  <Y id="22" val="46"/>
+                  <Width id="23" val="3600"/>
+                  <Height id="24" val="1377"/>
+                  <Data Exp="5" id="43"/>
+                  <Color id="51" val="14"/>
+                  <Attribute id="83" val="85"/>
+                  <StudioImageFile id="88" val="Images\shadow.png"/>
+                  <ImageStyle id="89" val="5"/>
+                  <TabOrder id="314" val="1"/>
+                  <AllowedDirection id="317" val="1"/>
+                </PropertyList>
+              </Control>
+              <Control PDOD="128" _test_id="32" id="30">
+                <PropertyList model="CTRL_RICH_CLIENT_LINE">
+                  <Placement id="20" right="100"/>
+                  <X1 id="21" val="129"/>
+                  <Y1 id="22" val="1466"/>
+                  <X2 id="23" val="3500"/>
+                  <Y2 id="24"/>
+                  <Color id="51" val="50"/>
+                  <Style id="63" val="1"/>
+                  <LineWidth id="76" val="2"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="36" id="34">
+                <PropertyList model="CTRL_RICH_CLIENT_IMAGE">
+                  <Placement id="20" right="100"/>
+                  <X id="21" val="79"/>
+                  <Y id="22" val="1528"/>
+                  <Width id="23" val="3600"/>
+                  <Height id="24" val="1377"/>
+                  <Data Exp="5" id="43"/>
+                  <Color id="51" val="14"/>
+                  <Attribute id="83" val="85"/>
+                  <StudioImageFile id="88" val="Images\shadow.png"/>
+                  <ImageStyle id="89" val="5"/>
+                  <TabOrder id="314" val="3"/>
+                  <AllowedDirection id="317" val="1"/>
+                </PropertyList>
+              </Control>
+              <Control PDOD="128" _test_id="33" id="31">
+                <PropertyList model="CTRL_RICH_CLIENT_LINE">
+                  <Placement id="20" right="100"/>
+                  <X1 id="21" val="129"/>
+                  <Y1 id="22" val="2959"/>
+                  <X2 id="23" val="3500"/>
+                  <Y2 id="24"/>
+                  <Color id="51" val="50"/>
+                  <Style id="63" val="1"/>
+                  <LineWidth id="76" val="2"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="37" id="35">
+                <PropertyList model="CTRL_RICH_CLIENT_IMAGE">
+                  <Placement id="20" right="100"/>
+                  <X id="21" val="79"/>
+                  <Y id="22" val="3021"/>
+                  <Width id="23" val="3600"/>
+                  <Height id="24" val="1377"/>
+                  <Data Exp="5" id="43"/>
+                  <Color id="51" val="14"/>
+                  <Attribute id="83" val="85"/>
+                  <StudioImageFile id="88" val="Images\shadow.png"/>
+                  <ImageStyle id="89" val="5"/>
+                  <TabOrder id="314" val="5"/>
+                  <AllowedDirection id="317" val="1"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="30" id="28">
+                <PropertyList model="CTRL_RICH_CLIENT_BROWSER">
+                  <Placement id="20" right="100"/>
+                  <X id="21" val="179"/>
+                  <Y id="22" val="86"/>
+                  <Width id="23" val="3400"/>
+                  <Height id="24" val="1300"/>
+                  <Data Exp="1" id="43"/>
+                  <Attribute id="83" val="85"/>
+                  <TabOrder id="314" val="2"/>
+                  <AdditionalInformation id="573" valUnicode="ScrollHorizontal=N,ScrollVertical=N"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="31" id="29">
+                <PropertyList model="CTRL_RICH_CLIENT_BROWSER">
+                  <Placement id="20" right="100"/>
+                  <X id="21" val="179"/>
+                  <Y id="22" val="1566"/>
+                  <Width id="23" val="3400"/>
+                  <Height id="24" val="1300"/>
+                  <Data Exp="2" id="43"/>
+                  <Attribute id="83" val="85"/>
+                  <TabOrder id="314" val="4"/>
+                  <AdditionalInformation id="573" valUnicode="ScrollHorizontal=N,ScrollVertical=N"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="34" id="32">
+                <PropertyList model="CTRL_RICH_CLIENT_BROWSER">
+                  <Placement id="20" right="100"/>
+                  <X id="21" val="179"/>
+                  <Y id="22" val="3059"/>
+                  <Width id="23" val="3400"/>
+                  <Height id="24" val="1300"/>
+                  <Data Exp="3" id="43"/>
+                  <Attribute id="83" val="85"/>
+                  <TabOrder id="314" val="6"/>
+                  <AdditionalInformation id="573" valUnicode="ScrollHorizontal=N,ScrollVertical=N"/>
+                </PropertyList>
+              </Control>
+            </FormEntry>
+          </TaskForms>
+          <TaskForms>
+            <FormEntry _last_isn="37" _last_test_id="39" id="3">
+              <PropertyList model="FORM_RICH_CLIENT">
+                <Model comp="-1" id="1" obj="32"/>
+                <X id="21"/>
+                <Width id="23" val="7740"/>
+                <Height id="24" val="2923"/>
+                <Wallpaper id="42"/>
+                <Color id="51" val="14"/>
+                <_WindowSort id="133"/>
+                <_Comment id="218"/>
+                <StartupPosition id="275" val="6"/>
+                <FormName id="311" valUnicode="Stats-subform-tablet"/>
+                <WallpaperStyle id="448" val="1"/>
+                <AdditionalInformation id="573" valUnicode="ScrollHorizontal=N,ScrollVertical=Y"/>
+              </PropertyList>
+              <Control _test_id="39" id="37">
+                <PropertyList model="CTRL_RICH_CLIENT_IMAGE">
+                  <Placement id="20" right="100"/>
+                  <X id="21" val="30"/>
+                  <Y id="22" val="1460"/>
+                  <Width id="23" val="7670"/>
+                  <Height id="24" val="1377"/>
+                  <Data Exp="5" id="43"/>
+                  <Color id="51" val="14"/>
+                  <Attribute id="83" val="85"/>
+                  <StudioImageFile id="88" val="Images\shadow.png"/>
+                  <ImageStyle id="89" val="5"/>
+                  <TabOrder id="314" val="5"/>
+                  <AllowedDirection id="317" val="1"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="38" id="36">
+                <PropertyList model="CTRL_RICH_CLIENT_IMAGE">
+                  <Placement id="20" left="50" right="50"/>
+                  <X id="21" val="4100"/>
+                  <Width id="23" val="3600"/>
+                  <Height id="24" val="1377"/>
+                  <Data Exp="5" id="43"/>
+                  <Color id="51" val="14"/>
+                  <Attribute id="83" val="85"/>
+                  <StudioImageFile id="88" val="Images\shadow.png"/>
+                  <ImageStyle id="89" val="5"/>
+                  <TabOrder id="314" val="2"/>
+                  <AllowedDirection id="317" val="1"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="37" id="35">
+                <PropertyList model="CTRL_RICH_CLIENT_IMAGE">
+                  <Placement id="20" right="50"/>
+                  <X id="21" val="30"/>
+                  <Width id="23" val="3600"/>
+                  <Height id="24" val="1377"/>
+                  <Data Exp="5" id="43"/>
+                  <Color id="51" val="14"/>
+                  <Attribute id="83" val="85"/>
+                  <StudioImageFile id="88" val="Images\shadow.png"/>
+                  <ImageStyle id="89" val="5"/>
+                  <TabOrder id="314" val="1"/>
+                  <AllowedDirection id="317" val="1"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="31" id="29">
+                <PropertyList model="CTRL_RICH_CLIENT_BROWSER">
+                  <Placement id="20" right="50"/>
+                  <X id="21" val="130"/>
+                  <Y id="22" val="40"/>
+                  <Width id="23" val="3400"/>
+                  <Height id="24" val="1300"/>
+                  <Data Exp="1" id="43"/>
+                  <Attribute id="83" val="85"/>
+                  <TabOrder id="314" val="3"/>
+                </PropertyList>
+              </Control>
+              <Control PDOD="128" _test_id="32" id="30">
+                <PropertyList model="CTRL_RICH_CLIENT_LINE">
+                  <Placement id="20" left="50"/>
+                  <X1 id="21" val="3865"/>
+                  <Y1 id="22" val="50"/>
+                  <X2 id="23"/>
+                  <Y2 id="24" val="1300"/>
+                  <Color id="51" val="50"/>
+                  <Style id="63" val="1"/>
+                  <_StaticType id="70" val="8"/>
+                  <LineWidth id="76" val="2"/>
+                </PropertyList>
+              </Control>
+              <Control PDOD="128" _test_id="35" id="33">
+                <PropertyList model="CTRL_RICH_CLIENT_LINE">
+                  <Placement id="20" right="100"/>
+                  <X1 id="21" val="130"/>
+                  <Y1 id="22" val="1425"/>
+                  <X2 id="23" val="7470"/>
+                  <Y2 id="24"/>
+                  <Color id="51" val="50"/>
+                  <Style id="63" val="1"/>
+                  <_StaticType id="70" val="16"/>
+                  <LineWidth id="76" val="2"/>
+                </PropertyList>
+              </Control>
+              <Control PDOD="128" _test_id="36" id="34">
+                <PropertyList model="CTRL_RICH_CLIENT_LINE">
+                  <Placement id="20" right="100"/>
+                  <X1 id="21" val="130"/>
+                  <Y1 id="22" val="2868"/>
+                  <X2 id="23" val="7470"/>
+                  <Y2 id="24"/>
+                  <Color id="51" val="50"/>
+                  <Style id="63" val="1"/>
+                  <_StaticType id="70" val="16"/>
+                  <LineWidth id="76" val="2"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="33" id="31">
+                <PropertyList model="CTRL_RICH_CLIENT_BROWSER">
+                  <Placement id="20" left="50" right="50"/>
+                  <X id="21" val="4200"/>
+                  <Y id="22" val="40"/>
+                  <Width id="23" val="3400"/>
+                  <Height id="24" val="1300"/>
+                  <Data Exp="2" id="43"/>
+                  <Attribute id="83" val="85"/>
+                  <TabOrder id="314" val="4"/>
+                </PropertyList>
+              </Control>
+              <Control _test_id="34" id="32">
+                <PropertyList model="CTRL_RICH_CLIENT_BROWSER">
+                  <Placement id="20" right="100"/>
+                  <X id="21" val="130"/>
+                  <Y id="22" val="1500"/>
+                  <Width id="23" val="7470"/>
+                  <Height id="24" val="1300"/>
+                  <Data Exp="3" id="43"/>
+                  <Attribute id="83" val="85"/>
+                  <TabOrder id="314" val="6"/>
+                </PropertyList>
+              </Control>
+            </FormEntry>
+          </TaskForms>
+          <Expressions>
+            <Expression id="23">
+              <ExpSyntax val="Trim({32768,69})&amp;'clientos&amp;client_os='&amp;Trim({32768,14})"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="24">
+              <ExpSyntax val="Trim({32768,69})&amp;'activations&amp;client_os='&amp;Trim({32768,14})"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="26">
+              <ExpSyntax val="Trim({32768,69})&amp;'sessions&amp;client_os='&amp;Trim({32768,14})"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="20">
+              <ExpSyntax val="IF({32768,42},'{0,2}'FORM,'{0,3}'FORM)"/>
+              <ExpAttribute val="N"/>
+            </Expression>
+            <Expression id="27">
+              <ExpSyntax val="'Images\shadow.png'"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+          </Expressions>
+        </Task>
+      </Task>
+    </Programs>
+  </ProgramsRepository>
+
+</Application>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="12040"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="41"/>
+    <LastIsnFolder val="7"/>
+    <Folders>
+      <Folder id="7">
+        <Name val="Time"/>
+        <NumberOfEntries val="6"/>
+      </Folder>
+      <Folder id="3">
+        <Name val="Travel"/>
+        <StartsAt val="6"/>
+        <NumberOfEntries val="2"/>
+      </Folder>
+      <Folder id="1">
+        <Name val="Portfolio"/>
+        <StartsAt val="8"/>
+        <NumberOfEntries val="28"/>
+      </Folder>
+    </Folders>
+  </Header>
+
+  <ModelsRepository>
+    <Models>
+      <Object Folder="Time" id="39" name="Time ID">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="16"/>
+          <Size id="174" val="16"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Time" id="34" name="Time edit">
+        <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+          <Placement id="20" right="100"/>
+          <Font id="50" val="20"/>
+          <Color id="51" val="47"/>
+          <HorizontalAlignment id="65" val="1"/>
+          <AdditionalInformation id="573" valUnicode="BorderFocusWidth=1"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Time" id="36" name="Time label">
+        <PropertyList model="CTRL_RICH_CLIENT_LABEL">
+          <Placement id="20" right="100"/>
+          <Font id="50" val="18"/>
+          <Color id="51" val="30"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Time" id="37" name="Time button">
+        <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+          <Placement id="20" right="100"/>
+          <Font id="50" val="20"/>
+          <Color id="51" val="49"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Time" id="38" name="Time date edit">
+        <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+          <Font id="50" val="15"/>
+          <Color id="51" val="50"/>
+          <AdditionalInformation id="573" valUnicode="CornerRadius=3,FocusedBorderWidth=1"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Time" id="40" name="Time timestamp (short)">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="14"/>
+          <Size id="174" val="14"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Travel" id="33" name="Form - 2nd design">
+        <PropertyList model="FORM_RICH_CLIENT">
+          <Width id="23" val="3750"/>
+          <Height id="24" val="2150"/>
+          <VerticalFactor id="34" val="100"/>
+          <HorizontalFactor id="35" val="100"/>
+          <ShowGrid id="37"/>
+          <GridX id="38" val="14"/>
+          <GridY id="39" val="6"/>
+          <Wallpaper id="42" val="images\Travel\pinstripes.png"/>
+          <Font id="50" val="2"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+          <PersistentFormState id="493"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Travel" id="32" name="Form - 1st design">
+        <PropertyList model="FORM_RICH_CLIENT">
+          <Width id="23" val="3750"/>
+          <Height id="24" val="2150"/>
+          <VerticalFactor id="34" val="100"/>
+          <HorizontalFactor id="35" val="100"/>
+          <ShowGrid id="37"/>
+          <GridX id="38" val="1"/>
+          <GridY id="39" val="1"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="1" name="ID">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="18"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="18"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="2" name="ObjectId">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="10"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="10"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="3" name="Name">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="50"/>
+          <Size id="174" val="100"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="4" name="Date">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_DATE" id="1"/>
+          <Picture id="157" valUnicode="DD/MM/YYYY"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="5" name="Time">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_TIME" id="1"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="6" name="Desc">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <StoredAs id="173" val="34"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="1"/>
+          <Content id="434" val="2"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="7" name="Mode">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Range id="98" valUnicode="A,U,Q"/>
+          <Picture id="157" valUnicode="1"/>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="8" name="RetVal">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N1"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="1"/>
+          <_Negative id="192" val="Y"/>
+          <_FieldStyle id="276" val="1"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="9" name="Button">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+          <PartOfDataview id="449"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="10" name="TableForm - 3rd design">
+        <PropertyList model="FORM_RICH_CLIENT">
+          <Font id="50" val="11"/>
+          <BorderStyle id="64" val="1"/>
+          <_Comment id="218"/>
+          <StartupPosition id="275" val="3"/>
+          <FormName id="311"/>
+          <GradientColor id="480" val="6"/>
+          <GradientStyle id="481" val="2"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="11" name="Table">
+        <PropertyList model="CTRL_RICH_CLIENT_TABLE">
+          <LineDivider id="78" val="Y"/>
+          <RowHighlightStyle id="409" val="4"/>
+          <RowHighlightColor id="410" val="4"/>
+          <SetTableColorBy id="428" val="2"/>
+          <AlternatingBgColor id="429" val="3"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="12" name="CardForm - 3rd design">
+        <PropertyList model="FORM_RICH_CLIENT">
+          <Font id="50" val="11"/>
+          <BorderStyle id="64" val="1"/>
+          <_Comment id="218"/>
+          <FormName id="311"/>
+          <GradientColor id="480" val="7"/>
+          <GradientStyle id="481" val="2"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="13" name="Field in table">
+        <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+          <Font id="50" val="12"/>
+          <Color id="51" val="11"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="14" name="Column title">
+        <PropertyList model="CTRL_RICH_CLIENT_COLUMN">
+          <Font id="50" val="5"/>
+          <Color id="51" val="3"/>
+          <_Sortable id="134" val="Y"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="15" name="Label">
+        <PropertyList model="CTRL_RICH_CLIENT_LABEL">
+          <Font id="50" val="14"/>
+          <Color id="51" val="8"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="16" name="Edit in Screen">
+        <PropertyList model="CTRL_RICH_CLIENT_EDIT">
+          <Font id="50" val="15"/>
+          <Color id="51" val="10"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="17" name="Button">
+        <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+          <Font id="50" val="16"/>
+          <Color id="51" val="4"/>
+          <GradientColor id="480" val="12"/>
+          <GradientStyle id="481" val="4"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="18" name="Code">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="8"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="8"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="19" name="Phone">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20"/>
+          <Size id="174" val="20"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="21" name="Currency">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="3"/>
+          <Size id="174" val="3"/>
+          <_Flip id="194"/>
+          <RichClient id="453">
+            <PropertyList model="CTRL_RICH_CLIENT_COMBOBOX">
+              <Model comp="-1" id="1" obj="22"/>
+            </PropertyList>
+          </RichClient>
+          <RichClientTable id="454">
+            <PropertyList model="CTRL_RICH_CLIENT_COMBOBOX">
+              <Model comp="-1" id="1" obj="22"/>
+            </PropertyList>
+          </RichClientTable>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="22" name="Currency[Cmb]">
+        <PropertyList model="CTRL_RICH_CLIENT_COMBOBOX">
+          <Font id="50" val="12"/>
+          <VisibleLines id="68" val="10"/>
+          <SourceTable comp="-1" id="150" obj="7"/>
+          <_DisplayField comp="-1" id="443" obj="3"/>
+          <_LinkField comp="-1" id="444" obj="2"/>
+          <_Index comp="-1" id="445" obj="1"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="23" name="YesNo">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="U"/>
+          <Size id="174" val="1"/>
+          <_Flip id="194"/>
+          <RichClient id="453">
+            <PropertyList model="CTRL_RICH_CLIENT_COMBOBOX">
+              <Model comp="-1" id="1" obj="24"/>
+            </PropertyList>
+          </RichClient>
+          <RichClientTable id="454">
+            <PropertyList model="CTRL_RICH_CLIENT_COMBOBOX">
+              <Model comp="-1" id="1" obj="24"/>
+            </PropertyList>
+          </RichClientTable>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="24" name="YesNo[cmb]">
+        <PropertyList model="CTRL_RICH_CLIENT_COMBOBOX">
+          <ItemsList id="45" valUnicode="Y,N"/>
+          <ControlName id="46" val="YesNo"/>
+          <Font id="50" val="12"/>
+          <DisplayList id="303" valUnicode="Yes,No"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="25" name="AssetClass">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="2"/>
+          <Size id="174" val="2"/>
+          <_Flip id="194"/>
+          <RichClient id="453">
+            <PropertyList model="CTRL_RICH_CLIENT_COMBOBOX">
+              <Model comp="-1" id="1" obj="26"/>
+            </PropertyList>
+          </RichClient>
+          <RichClientTable id="454">
+            <PropertyList model="CTRL_RICH_CLIENT_COMBOBOX">
+              <Model comp="-1" id="1" obj="26"/>
+            </PropertyList>
+          </RichClientTable>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="26" name="AssetClass[Cmb]">
+        <PropertyList model="CTRL_RICH_CLIENT_COMBOBOX">
+          <ItemsList id="45" valUnicode="Li,Bo,Eq,Pr,No,He,Ba,Nb"/>
+          <Font id="50" val="12"/>
+          <DisplayList id="303" valUnicode="Liquidity,Bonds,Equity,Precisous Metals,Non Metals Commodities,Hedge Funds,Private EquityBanked Real Estate,Non-Banked Real Estate"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="27" name="Amount">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="N12.2C"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="12"/>
+          <_Negative id="192" val="Y"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="28" name="SmallFloat">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3.2N"/>
+          <_Dec id="181" val="2"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192" val="Y"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object Folder="Portfolio" id="29" name="Interest">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="4.3NC"/>
+          <_Dec id="181" val="3"/>
+          <_Whole id="182" val="4"/>
+          <_Negative id="192" val="Y"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+    </Models>
+  </ModelsRepository>
+
+</Application>
