@@ -28,7 +28,7 @@
           <RunProjectAs val="C"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="739762" _time="46098" date="2026/05/26" time="12:48:18"/>
+          <LastModified _date="739779" _time="39940" date="2026/06/12" time="11:05:40"/>
         </Header>
         <ItemIsn val="141"/>
         <Resource>
@@ -2266,6 +2266,21 @@
             </Event>
             <TXT val="clearStartOffline"/>
             <ReturnValueExpression val="212"/>
+            <Expanded val="1"/>
+          </LogicUnit>
+          <LogicUnit id="157" propagate="78">
+            <Level val="F"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="F"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="testGitPush"/>
+            <ReturnValueExpression val="215"/>
+            <Expanded val="1"/>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
